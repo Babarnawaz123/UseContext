@@ -6,7 +6,7 @@ const UserContext = createContext();
 
 // step2:Wrap all the child inside a provider
 //step3: pass value
-// step4: consume context in component which want to consume.
+//step4: consume context in component which want to consume.
 
 function App() {
   const [user, setUser] = useState({ name: "Babar Nawaz" });
